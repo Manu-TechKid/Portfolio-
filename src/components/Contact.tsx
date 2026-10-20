@@ -51,7 +51,7 @@ export const Contact: React.FC = () => {
             </h2>
 
             <p className="text-textMuted text-base sm:text-lg leading-relaxed">
-              I'm actively seeking junior front-end and web engineering opportunities. Whether you have an open role, an interesting project, or just want to connect, my inbox is always open.
+              I'm actively seeking front-end and back-end web engineering opportunities. Whether you have an open role, an interesting project, or just want to connect, my inbox is always open.
             </p>
 
             {/* Quick action buttons */}

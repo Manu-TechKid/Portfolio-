@@ -39,7 +39,7 @@ export interface StatItem {
 export const PERSONAL_INFO = {
   name: "Emmanuel Kiprotich",
   initials: "EK",
-  role: "Junior Front-end Developer",
+  role: "Front-end and Back-end Developer",
   location: "Kenya",
   email: "techkid250@gmail.com",
   github: "https://github.com/Manu-TechKid",
