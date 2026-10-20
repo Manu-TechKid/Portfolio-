@@ -160,7 +160,7 @@ export const PROJECTS: Project[] = [
       "Web dashboard approach for rapid incident triage"
     ],
     tags: ["C#", "ASP.NET MVC", "SQL Server", "Bootstrap", "Security"],
-    githubUrl: "https://github.com/Manu-TechKid",
+    githubUrl: "https://github.com/Manu-TechKid/Web-Based-Threat-Detection-Monitoring-System",
     category: "Enterprise / Systems",
     accentColor: "from-rose-950/50 to-slate-950/80"
   }
