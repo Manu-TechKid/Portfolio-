@@ -57,7 +57,7 @@ export const PERSONAL_INFO = {
 
 export const STATS: StatItem[] = [
   { value: "18+", label: "GitHub Repositories", detail: "Active open-source work" },
-  { value: "4+", label: "Featured Projects", detail: "End-to-end built applications" },
+  { value: "5+", label: "Featured Projects", detail: "End-to-end built applications" },
   { value: "2025", label: "Industry Attachment", detail: "Amtech Technologies Ltd" },
   { value: "2026", label: "BSc IT Graduation", detail: "Maseno University" }
 ];
@@ -163,6 +163,22 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/Manu-TechKid/Web-Based-Threat-Detection-Monitoring-System",
     category: "Enterprise / Systems",
     accentColor: "from-rose-950/50 to-slate-950/80"
+  },
+  {
+    id: "hardware-inventory",
+    number: "05",
+    title: "Hardware Inventory Management System",
+    description: "A full-stack inventory, sales, and operations management platform designed for hardware suppliers to track stock levels, monitor category budgets, manage staff, and streamline sales workflows.",
+    highlights: [
+      "Inventory tracking with automatic low-stock alerts, SKU management, and supplier categorization",
+      "Sales transaction tracking pipeline with instant inventory deductions and staff performance analytics",
+      "Role-based access control (Admin & Staff) secured with JWT authentication and bcrypt password hashing",
+      "Budget management module monitoring monthly department spending against defined limits"
+    ],
+    tags: ["Node.js", "Express", "SQLite", "JavaScript", "JWT", "Bootstrap", "REST API"],
+    githubUrl: "https://github.com/Manu-TechKid/hardware-inventory-system",
+    category: "Full-Stack",
+    accentColor: "from-amber-950/50 to-slate-950/80"
   }
 ];
 
