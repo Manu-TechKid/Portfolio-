@@ -57,7 +57,7 @@ export const PERSONAL_INFO = {
 
 export const STATS: StatItem[] = [
   { value: "18+", label: "GitHub Repositories", detail: "Active open-source work" },
-  { value: "5+", label: "Featured Projects", detail: "End-to-end built applications" },
+  { value: "6+", label: "Featured Projects", detail: "End-to-end built applications" },
   { value: "2025", label: "Industry Attachment", detail: "Amtech Technologies Ltd" },
   { value: "2026", label: "BSc IT Graduation", detail: "Maseno University" }
 ];
@@ -179,6 +179,23 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/Manu-TechKid/hardware-inventory-system",
     category: "Full-Stack",
     accentColor: "from-amber-950/50 to-slate-950/80"
+  },
+  {
+    id: "smart-farm",
+    number: "06",
+    title: "Smart Farm Management System",
+    description: "An end-to-end smart agriculture and farm management web platform integrating a modern React frontend with a high-performance .NET backend for automated agricultural monitoring, animal husbandry, crop cycles, and farm operations tracking.",
+    highlights: [
+      "Modern React responsive dashboard interface with real-time operational metrics and farm telemetry",
+      "Robust .NET Web API backend architecture handling business logic, authentication, and structured data flow",
+      "Livestock, crop tracking, and farm inventory management modules with automated alerts",
+      "Secure user authentication, role management, and live cloud deployment"
+    ],
+    tags: ["React", ".NET", "C#", "REST API", "Tailwind CSS", "TypeScript", "SQL Server"],
+    liveUrl: "https://bett-smartfarm.duckdns.org/login",
+    githubUrl: "https://github.com/Manu-TechKid/SMART-FARM-MANAGEMENT-SYSTEM",
+    category: "Full-Stack",
+    accentColor: "from-teal-950/60 to-emerald-950/80"
   }
 ];
 
