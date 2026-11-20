@@ -6,7 +6,7 @@ import { ArrowUpRight } from 'lucide-react';
 export const Projects: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState<string>('All');
 
-  const categories = ['All', 'Frontend', 'Full-Stack', 'Enterprise / Systems'];
+  const categories = ['All', 'Frontend', 'Backend & APIs', 'Full-Stack', 'Enterprise / Systems'];
 
   const filteredProjects = activeCategory === 'All'
     ? PROJECTS

@@ -5,7 +5,7 @@ import { ArrowRight, FileDown, Sparkles } from 'lucide-react';
 import { GithubIcon } from './Icons';
 
 export const Hero: React.FC = () => {
-  const quickTech = ["React", "TypeScript", "JavaScript", "Tailwind CSS", "Node.js", "C# MVC"];
+  const quickTech = ["NestJS", "TypeScript", "React", "Node.js", "MongoDB", "C# (.NET)", "RESTful APIs"];
 
   return (
     <section id="home" className="relative pt-12 pb-24 md:pt-20 md:pb-32 overflow-hidden">
